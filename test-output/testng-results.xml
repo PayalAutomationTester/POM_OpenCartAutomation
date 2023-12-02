@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10900" started-at="2023-12-02T21:05:42 IST" finished-at="2023-12-02T21:05:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10900" started-at="2023-12-02T21:05:42 IST" finished-at="2023-12-02T21:05:53 IST">
+      <class name="com.qa.opencart.tests.AccountsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="setup" is-config="true" duration-ms="6642" started-at="2023-12-02T21:05:42 IST" finished-at="2023-12-02T21:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupAccPage()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="setupAccPage" is-config="true" duration-ms="813" started-at="2023-12-02T21:05:49 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAccPage -->
+        <test-method status="PASS" signature="titleTest()[pri:1, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="titleTest" duration-ms="22" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="urlTest()[pri:2, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="urlTest" duration-ms="17" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="logoutLinkPresentTest()[pri:3, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="logoutLinkPresentTest" duration-ms="143" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLinkPresentTest -->
+        <test-method status="PASS" signature="searchBoxPresentTest()[pri:4, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="searchBoxPresentTest" duration-ms="27" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxPresentTest -->
+        <test-method status="PASS" signature="searchButtonPresentTest()[pri:5, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="searchButtonPresentTest" duration-ms="25" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonPresentTest -->
+        <test-method status="PASS" signature="accSecHeadersPresentTest()[pri:6, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="accSecHeadersPresentTest" duration-ms="108" started-at="2023-12-02T21:05:50 IST" finished-at="2023-12-02T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSecHeadersPresentTest -->
+        <test-method status="PASS" signature="searchProductTest(java.lang.String)[pri:7, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="searchProductTest" duration-ms="661" started-at="2023-12-02T21:05:50 IST" data-provider="productData" finished-at="2023-12-02T21:05:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="searchProductTest(java.lang.String)[pri:7, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="searchProductTest" duration-ms="613" started-at="2023-12-02T21:05:51 IST" data-provider="productData" finished-at="2023-12-02T21:05:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="searchProductTest(java.lang.String)[pri:7, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="searchProductTest" duration-ms="679" started-at="2023-12-02T21:05:51 IST" data-provider="productData" finished-at="2023-12-02T21:05:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@5891e32e]" name="tearDown" is-config="true" duration-ms="1073" started-at="2023-12-02T21:05:52 IST" finished-at="2023-12-02T21:05:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
