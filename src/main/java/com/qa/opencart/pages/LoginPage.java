@@ -38,6 +38,7 @@ public class LoginPage {
 		eleUtil.waitForvisibilityOfElement(TimeUtil.DEFAULT_TIMEOUT, username).sendKeys(user);
 		eleUtil.doSendKeys(password, pass);
 		eleUtil.doClick(loginBtn);
+		TimeUtil.SmallWait();
 		return new AccountsPage(driver);
 	}
 }

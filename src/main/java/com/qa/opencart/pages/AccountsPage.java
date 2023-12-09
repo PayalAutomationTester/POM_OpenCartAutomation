@@ -57,6 +57,7 @@ public class AccountsPage {
 	public ResultsPage SearchProduct(String product) {
 		eleUtil.doSendKeys(searchBox, product);
 		eleUtil.doClick(searchButton);
+		TimeUtil.SmallWait();
 		return new ResultsPage(driver);
 
 	}

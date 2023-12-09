@@ -23,5 +23,12 @@ public class ResultsPage {
 	public int getSearchProductCount() {
 		return eleUtil.waitForAllElementsToBeVisible(TimeUtil.DEFAULT_TIMEOUT, resultsLoc).size();
 	}
+	
+	public ProductInfoPage selectProduct(String productName) {
+		System.out.println("Selecting product : "+ productName);
+		eleUtil.doClick(By.linkText(productName));
+		TimeUtil.SmallWait();
+		return new ProductInfoPage(driver);
+	}
 
 }
